@@ -1,0 +1,144 @@
+body{
+    background-image: linear-gradient(45deg,#00a2,#2b2929);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #2b2929;
+    color: #EEEFEE;
+}
+.item{
+    position: absolute;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #000a;
+    color: #EEEFEE;
+}
+.left{
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+.right{
+    top: 10px;
+    right: 10px;
+    
+    
+}
+.mid{
+    top: 10px;
+    right: 10px;
+    left: 600px;
+}
+.imagem {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    right: 400px;
+}
+
+.flex-container > div {
+    margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.container{
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Altera a direção para coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.flex-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+/* Estilizando a lista não ordenada */
+ul.custom-icons {
+    list-style-type: none; /* Remover marcadores padrão */
+    padding-left: 0; /* Remover o recuo padrão da lista */
+}
+
+ul.custom-icons li::before {
+    content: "\f005"; /* Código do ícone Font Awesome */
+    font-family: "Font Awesome 5 Free"; /* Fonte do ícone */
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto do item */
+}
+.footer{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+}
+
+
+/* pg2html*/
+
+
+
+.screen{
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #EEEFEE;
+}
+
+.name{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.pass{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.button{
+    background-color: gray;
+    border: none;
+    padding: 15px;
+    width: 85%;
+    border-radius: 10px;
+    color: #EEEFEE;
+    font-size: 15px;
+    
+}
+.button:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* cadastro */
+
+fieldset{
+    margin: auto;
+    border: 0px;
+}
